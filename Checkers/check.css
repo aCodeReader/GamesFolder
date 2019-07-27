@@ -1,0 +1,65 @@
+body {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+#board-container {
+    background-image: url("https://cpimg.tistatic.com/04362630/b/4/Emerald-Green-Marble.jpg");
+    display: inline-block;
+    padding: 1vmin;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cell {
+    width: 8.5vmin;
+    height: 8.5vmin;
+    display: inline-block;
+    margin: 0.4vmin;
+}
+
+.black {
+    background-image: url("https://image.shutterstock.com/image-photo/white-patterned-structure-marquina-black-260nw-455642368.jpg");
+}
+
+.white {
+    background-image: url("https://img.freepik.com/free-photo/white-marble-texture-with-natural-pattern-background-design-art-work_24076-186.jpg?size=626&ext=jpg");
+}
+
+.checker {
+    margin: 10%;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-checker {
+    background-image: url("https://www.kurokigoishi.co.jp/goworks/img/img_yukijirushi.png");
+    background-size: cover;
+    color: #444444;
+}
+
+.black-checker {
+    background-image: url("https://www.clipartmax.com/png/middle/195-1952752_realistic-go-stone-black-go-stone.png");
+    background-size: cover;
+    color: #cccccc;
+}
+
+.selected {
+    margin: 0;
+    border: 1vmin solid rgba(255,255,255,0.5);
+    background-repeat: no-repeat;
+}
+
+.out-of-play {
+    /*width: 10vmin;*/
+    /*height: 10vmin;*/
+}
+
+i {
+    font-size: 3vmin;
+}
